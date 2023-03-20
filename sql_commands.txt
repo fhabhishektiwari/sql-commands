@@ -1,0 +1,43 @@
+-- create table cust(id int primary Key Not Null,name varchar(255),age int,city varchar(255),salary numeric)
+select * from cust 
+-- insert into cust(id,name,age,city,salary) values (3,"Neha Gautam",25,"Jaunpur",35500),(4,"Surabhi Yadav",24,"Rajasthan",23500)
+
+-- update cust set age =22 where id=2 
+-- update cust set age=24, name="Rahul Singh" where id=3
+-- update cust set grade='B' where id=4 
+
+-- delete from cust where id=2
+
+-- alter table cust add column grade char(1)
+-- alter table cust add column address char(30)
+
+-- alter table cust drop column address
+-- alter table cust Modify column address varchar(254)
+
+
+-- create table test(id int primary Key,firstName char(50),lastName char(50))
+-- select * from test
+
+-- insert into test(id,firstName,lastName) values(1,'Rahul','Rai'),(2,'Gitika', 'Singh')
+-- truncate table test
+-- drop table 
+
+-- show tables
+
+-- select * from cust
+-- select id,name,city from cust
+-- select Distinct grade from cust
+
+-- select * from cust where id=4
+-- select * from cust where grade="B"
+-- select * from cust where salary >20000
+-- select * from cust where salary >20000 and grade="B"
+
+-- select * from cust limit 1
+
+-- select * from cust order by name Asc
+-- select * from cust order by name desc
+-- select * from cust order by salary asc
+-- select * from cust order by salary desc
+
+
